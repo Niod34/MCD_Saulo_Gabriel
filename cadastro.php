@@ -11,4 +11,6 @@ require 'conexao.php';
     $sql->bindvalue(':Preco', $preco);
 
     $sql->execute();
+
+    echo "Produto Cadastrado";
 ?>
